@@ -106,7 +106,7 @@ UITree.propTypes = {
   tree: _propTypes2.default.object.isRequired,
   paddingLeft: _propTypes2.default.number,
   renderNode: _propTypes2.default.func.isRequired,
-  draggable: _react2.default.PropTypes.bool
+  draggable: _propTypes2.default.bool
 };
 UITree.defaultProps = {
   paddingLeft: 20,
